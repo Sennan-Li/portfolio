@@ -1,0 +1,138 @@
+section {
+  height: 95vh;
+  padding: 4vh 10rem;
+  min-height: fit-content;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  @media (max-width: 1200px) {
+    padding: 0 5%;
+    height: fit-content;
+  }
+
+
+  /* CONTAINER */
+  .section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 1000px) {
+      height: fit-content;
+      flex-direction: column;
+    }
+
+    .grid-container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem auto;
+      flex-wrap: wrap;
+      @media (max-width: 1000px) {
+        margin-top: 0;
+      }
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
+
+      .grid-item-container {
+        padding: 1.5rem;
+        flex: 1;
+        border-radius: 2rem;
+        border: rgb(53, 53, 53) 0.1rem solid;
+        border-color: rgb(163, 163, 163);
+        text-align: center;
+      }
+    }
+  }
+
+  /* TEXT */
+  p {
+    font-weight: 500;
+  }
+
+  .section-text-p1 {
+    text-align: center;
+    color: rgb(80, 80, 80);
+  }
+
+  .section-text-p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    @media (max-width: 600px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  .section-text-title {
+    font-size: 3rem;
+    text-align: center;
+    @media (max-width: 600px) {
+      font-size: 2rem;
+    }
+  }
+
+  /* ICONS */
+
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+
+  /* BUTTONS */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    @media (max-width: 600px) {
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      font-weight: 600;
+      transition: all 300ms ease;
+      padding: 1rem;
+      width: 8rem;
+      border-radius: 2rem;
+    }
+
+    .btn-color-1,
+    .btn-color-2 {
+      border: rgb(53, 53, 53) 0.1rem solid;
+    }
+
+    .btn-color-1:hover,
+    .btn-color-2:hover {
+      cursor: pointer;
+    }
+
+    .btn-color-1,
+    .btn-color-2:hover {
+      background: rgb(53, 53, 53);
+      color: white;
+    }
+
+    .btn-color-1:hover {
+      background: rgb(0, 0, 0);
+    }
+
+    .btn-color-2 {
+      background: none;
+    }
+
+    .btn-color-2:hover {
+      border: rgb(255, 255, 255) 0.1rem solid;
+    }
+
+    .btn-container {
+      gap: 1rem;
+    }
+  }
+}

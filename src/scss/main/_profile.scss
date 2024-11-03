@@ -1,0 +1,46 @@
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 80vh;
+    align-items: center;
+    @media (max-width:1000px) {
+      flex-direction: column;
+      height: 83vh;
+      gap: 5%;
+      margin-bottom: 6rem;
+    }
+    @media (max-width: 600px) {
+      height: 75vh;
+      margin-bottom: 0;
+    }
+    .profile-pic {
+        display: block;
+        height: 400px;
+        width: 400px;
+        border-radius: 100%;
+        @media (max-width:1000px) {
+          width: 275px;
+          height: 275px;
+        }
+        @media (max-width:600px) {
+          width: 200px;
+          height: 200px;
+        }
+        
+      }
+      .profile-text {
+        align-self: center;
+        text-align: center;
+
+      }
+      #socials-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 1rem;
+      }
+  }
+  
+
+  

@@ -1,0 +1,22 @@
+
+#about {
+    position: relative;
+    .section-container {
+      gap: 4rem;
+      height: 80%;
+      .about-pic {
+        border-radius: 2rem;
+        height: auto;
+        width: 333px;
+
+      }
+      .about-container {
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+      }
+    }
+  }
+  
+  
+   

@@ -1,0 +1,19 @@
+/* FOOTER SECTION */
+
+footer {
+    height: fit-content;
+    margin: 0 1rem;
+    text-align: center;
+    ul {
+      @media (max-width: 600px) {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0;
+
+      }
+    }
+    
+  }
+  
+
+  
