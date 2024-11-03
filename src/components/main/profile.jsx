@@ -15,8 +15,8 @@ const Profile = () => {
                     <a href="#contact"><button className="btn btn-color-1" >Contact Info</button></a>
                 </div>
                 <div id="socials-container">
-                   <a href="https://www.linkedin.com/in/sennan-li/"><img src={linkedin} alt="My LinkedIn profile" className="icon" /></a> 
-                   <a href="https://github.com/Sennan-Li"><img src={git} alt="My Github profile" className="icon" /></a> 
+                   <a href="https://www.linkedin.com/in/sennan-li/" target='_blank'><img src={linkedin} alt="My LinkedIn profile" className="icon" /></a> 
+                   <a href="https://github.com/Sennan-Li" target='_blank'><img src={git} alt="My Github profile" className="icon" /></a> 
                 </div>
             </div>
       </section>

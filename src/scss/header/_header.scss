@@ -56,6 +56,9 @@ nav {
   .hamburger-menu {
     position: relative;
     display: inline-block;
+    .menu-links {
+      box-shadow: 0 0 1.5px gainsboro
+    }
   }
   
   .hamburger-icon {

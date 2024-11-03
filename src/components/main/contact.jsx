@@ -14,7 +14,7 @@ const Contact = () => {
             </div>
             <div className="contact-info-container">
               <img className="icon contact-icon" src={contact} alt="LinkedIn icon" />
-              <p><a href="https://www.linkedin.com/in/sennan-li/">LinkedIn</a></p>
+              <p><a href="https://www.linkedin.com/in/sennan-li/" target='_blank'>LinkedIn</a></p>
             </div>
           </div>
       </section>

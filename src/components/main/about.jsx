@@ -15,12 +15,14 @@ const About = () => {
                 <div className="grid-item-container">
                   <img src={experience} alt="Experience icon" className="icon"/>
                   <h3>Experience</h3>
-                  <p>2+ years <br />Frontend Development</p>
+                  <p>Technical Support</p>
+                  <p>Product Management</p>
+                  <p>Web Development</p>
                 </div>
                 <div className="grid-item-container">
                   <img src={education} alt="Education icon" className="icon" />
                   <h3>Education</h3>
-                  <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+                  <p>MSc Computer Science <br /> MSc Automotive Engineering</p>
                 </div>
               </div>
               <div className="text-container">
