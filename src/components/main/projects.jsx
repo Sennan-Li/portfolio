@@ -29,7 +29,7 @@ const Projects = ({theme}) => {
             </div>
             <h2 className="projects-sub-title project-title">To Do</h2>
             <div className="btn-container">
-              <a href="https://github.com/Sennan-Li/todo-app.git" target='_blank'><button className="btn btn-color-2 project-btn">Github</button></a>
+              <a href="https://github.com/Sennan-Li/todo-web-app.git" target='_blank'><button className="btn btn-color-2 project-btn">Github</button></a>
               <a href="https://todo.sennanli.com" target='_blank'><button className="btn btn-color-2 project-btn">Demo</button></a>
             </div>
           </div>

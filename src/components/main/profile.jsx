@@ -10,7 +10,7 @@ const Profile = ({theme}) => {
     return (
         <section id="profile">
             <div className='profile-container'>
-            <img className="profile-pic" src={theme=="light"?profileLight:profileDark} alt="Sennan Li profile picture" />
+            <img className="profile-pic" src={theme=="light"?profileDark:profileLight} alt="Sennan Li profile picture" />
             </div>
             <div className="profile-text">
                 <p className="section-text-p1">Hello, I'm</p>
