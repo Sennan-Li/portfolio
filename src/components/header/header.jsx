@@ -29,7 +29,7 @@ const Header = ({onMenuToggle, onThemeToggle, theme}) => {
               <li><a href="#experience" onClick={onMenuToggle}>Experience</a></li>
               <li><a href="#projects" onClick={onMenuToggle}>Projects</a></li>
               <li><a href="#contact" onClick={onMenuToggle}>Contact</a></li>
-              <li><img onClick={onThemeToggle} className='icon color-icon' src={themeDark} alt="Color theme icon" /></li>
+              <li><img onClick={onThemeToggle} className='icon color-icon' src={theme=="light"?themeDark:themeLight} alt="Color theme icon" /> </li>
             </div>
           </div>
         </nav>

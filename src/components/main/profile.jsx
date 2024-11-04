@@ -2,12 +2,16 @@ import gitLight from '../../assets/github_light.png'
 import linkedinLight from '../../assets/linkedin_light.png'
 import gitDark from '../../assets/github_dark.png'
 import linkedinDark from '../../assets/linkedin_dark.png'
-import profileLight from '../../assets/profile-pic.png'
+import profileLight from '../../assets/profile_light.png'
+import profileDark from '../../assets/profile_dark.png'
+
 
 const Profile = ({theme}) => {
     return (
         <section id="profile">
-            <img className="profile-pic" src={profileLight} alt="Sennan Li profile picture" />
+            <div className='profile-container'>
+            <img className="profile-pic" src={theme=="light"?profileLight:profileDark} alt="Sennan Li profile picture" />
+            </div>
             <div className="profile-text">
                 <p className="section-text-p1">Hello, I'm</p>
                 <h1 className="section-text-title">Sennan Li</h1>

@@ -86,24 +86,21 @@ nav {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
-  }
-  
-  .menu-links a {
-    display: block;
-    padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
-    text-decoration: none;
-    transition: all 0.3 ease-in-out;
+    &.open {
+      max-height: 300px;
+    }
+    li{
+      list-style: none;
+      padding: 10px;
+      a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        transition: all 0.3 ease-in-out;
+      }
+    }
   }
-  
-  .menu-links li {
-    list-style: none;
-  }
-  
-  .menu-links.open {
-    max-height: 300px;
-  }
+ 
   
   .hamburger-icon.open span {
     &:first-child {
