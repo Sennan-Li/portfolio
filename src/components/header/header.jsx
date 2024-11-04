@@ -1,5 +1,6 @@
-
-const Header = ({onToggle}) => {
+import themeDark from '../../assets/theme_dark.png'
+import themeLight from '../../assets/theme_light.png'
+const Header = ({onMenuToggle, onThemeToggle, theme}) => {
     return (
         <header>
         <nav id='desktop-nav' >
@@ -10,23 +11,25 @@ const Header = ({onToggle}) => {
               <li><a href="#experience">Experience</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
+              <li ><img onClick={onThemeToggle} className='icon clor-icon' src={theme=="light"?themeDark:themeLight} alt="Color theme icon" /></li>
             </ul>
           </div>
         </nav>
 
         <nav id="hamburger-nav">
-          <div class="logo">Sennan Li</div>
-          <div class="hamburger-menu">
-            <div class="hamburger-icon" onClick={onToggle}>
+          <div className="logo">Sennan Li</div>
+          <div className="hamburger-menu">
+            <div className="hamburger-icon" onClick={onMenuToggle}>
               <span></span>
               <span></span>
               <span></span>
             </div>
-            <div class="menu-links">
-              <li><a href="#about" onclick="onToggle()">About</a></li>
-              <li><a href="#experience" onclick="onToggle()">Experience</a></li>
-              <li><a href="#projects" onclick="onToggle()">Projects</a></li>
-              <li><a href="#contact" onclick="onToggle()">Contact</a></li>
+            <div className="menu-links">
+              <li><a href="#about" onClick={onMenuToggle}>About</a></li>
+              <li><a href="#experience" onClick={onMenuToggle}>Experience</a></li>
+              <li><a href="#projects" onClick={onMenuToggle}>Projects</a></li>
+              <li><a href="#contact" onClick={onMenuToggle}>Contact</a></li>
+              <li><img onClick={onThemeToggle} className='icon color-icon' src={themeDark} alt="Color theme icon" /></li>
             </div>
           </div>
         </nav>

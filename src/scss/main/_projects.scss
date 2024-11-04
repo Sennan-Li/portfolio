@@ -1,18 +1,15 @@
-/* PROJECTS SECTION */
 
 #projects {
     position: relative;
+    
     @media (max-width: 1000px) {
       height: fit-content;
     }
 
       .grid-item-project-container {
-        border-color: rgb(163, 163, 163);
-        background: rgb(240, 240, 240);
         max-width: 500px;
       }
       .projects-sub-title {
-        color: rgb(85, 85, 85);
         font-weight: 600;
         font-size: 1.75rem;
         margin-bottom: 2rem;
@@ -25,13 +22,9 @@
       
       .project-title {
         margin: 1rem;
-        color: black;
+ 
       }
       
-      .project-btn {
-        color: black;
-        border-color: rgb(163, 163, 163);
-      }
     
   }
 

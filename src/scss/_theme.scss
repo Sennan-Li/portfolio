@@ -1,0 +1,98 @@
+@mixin light-theme {
+    --primary-color: white;
+    --primary-color-2: rgb(250, 250, 250);
+    --primary-color-3: rgb(181, 181, 181);
+    --background-color: rgb(255, 255, 255);
+    --secondary-color: black;
+    --secondary-color-2: rgb(85, 85, 85);
+    --button-background: rgb(53, 53, 53);
+    --button-text-hover: grey;
+    --button-border: rgb(53, 53, 53) 0.1rem solid;
+    --button-border-2: rgb(255, 255, 255) 0.1rem solid;
+    --container-border: rgb(163, 163, 163);
+  }
+  
+  @mixin dark-theme {
+    --primary-color: black;
+    --primary-color-2: rgb(39, 39, 39);
+    --primary-color-3: rgb(74, 74, 74);
+    --background-color: rgb(33, 33, 33);
+    --secondary-color: white;
+    --secondary-color-2: rgb(170, 170, 170);
+    --button-background: rgb(202, 202, 202);
+    --button-text-hover: lightgrey;
+    --button-border: rgb(202, 202, 202) 0.1rem solid;
+    --button-border-2: rgb(0, 0, 0) 0.1rem solid;
+    --container-border: rgb(92, 92, 92);
+  }
+
+  body.light {
+    @include light-theme;
+  }
+  
+  body.dark {
+    @include dark-theme;
+  }
+
+  body {
+    background-color: var(--primary-color);
+  }
+
+  h3, p, .section-text-title, .projects-sub-title, .project-title, .project-btn, .experience-sub-title, article {
+    color: var(--secondary-color);
+  }
+
+  .grid-item-container {
+    background-color: var(--primary-color-2);
+    border: var(--button-border);
+    border-color: var(--container-border);
+  }
+/* TEXT */
+
+a {
+  color: var(--secondary-color);
+  &:hover {
+    text-decoration-color: var(--secondary-color-2);
+    color: var(--secondary-color-2);
+  }
+}
+
+.section-text-p1 {
+color: var(--secondary-color-2);
+}
+
+
+.btn-color-1, .btn-color-2 {
+border: var(--button-border);
+color: var(--secondary-color-2);
+&:hover {
+  cursor: pointer;
+}
+}
+.btn-color-1 {
+  background: var(--button-background);
+  color: var(--primary-color);
+  &:hover {
+    background: var(--secondary-color);
+  }
+}
+
+.btn-color-2 {
+  background: none;
+  &:hover {
+    background: var(--button-background);
+    color: var(--primary-color);
+    border: var(--button-border);
+  }
+}
+
+
+.grid-item-project-container {
+border-color: var(--container-border);
+background: var(--primary-color-2);
+}
+
+.project-btn {
+border-color: var(--container-border);
+}
+

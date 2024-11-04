@@ -1,9 +1,10 @@
-import arrow from '../../assets/arrow.png';
+import arrowLight from '../../assets/arrow_light.png';
+import arrowDark from '../../assets/arrow_dark.png';
 import project1 from '../../assets/project-1.jpeg';
 import project2 from '../../assets/project-2.jpeg';
 import project3 from '../../assets/project-3.jpeg';
 
-const Projects = () => {
+const Projects = ({theme}) => {
   return (
     <section id="projects">
       <p className="section-text-p1">Browse My Recent</p>
@@ -18,7 +19,7 @@ const Projects = () => {
             <h2 className="projects-sub-title project-title">Notes</h2>
             <div className="btn-container">
               <a href="https://github.com/Sennan-Li/notes-web-app.git" target='_blank'><button className="btn btn-color-2 project-btn">Github</button></a>
-              <a href="https://notes.sennanli.com" target='_blank'><button className="btn btn-color-2 project-btn">Live Demo</button></a>
+              <a href="https://notes.sennanli.com" target='_blank'><button className="btn btn-color-2 project-btn">Demo</button></a>
             </div>
           </div>
 
@@ -29,7 +30,7 @@ const Projects = () => {
             <h2 className="projects-sub-title project-title">To Do</h2>
             <div className="btn-container">
               <a href="https://github.com/Sennan-Li/todo-app.git" target='_blank'><button className="btn btn-color-2 project-btn">Github</button></a>
-              <a href="https://todo.sennanli.com" target='_blank'><button className="btn btn-color-2 project-btn">Live Demo</button></a>
+              <a href="https://todo.sennanli.com" target='_blank'><button className="btn btn-color-2 project-btn">Demo</button></a>
             </div>
           </div>
 
@@ -40,7 +41,7 @@ const Projects = () => {
             <h2 className="projects-sub-title project-title">Weather Forecast</h2>
             <div className="btn-container">
               <a href="https://github.com/Sennan-Li/weather-forecast-app.git" target='_blank'><button className="btn btn-color-2 project-btn">Github</button></a>
-              <a href="https://weather-forecast-sennanli.streamlit.app" target='_blank'><button className="btn btn-color-2 project-btn">Live Demo</button></a>
+              <a href="https://weather-forecast-sennanli.streamlit.app" target='_blank'><button className="btn btn-color-2 project-btn">Demo</button></a>
             </div>
           </div>
 
@@ -48,7 +49,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <img className="icon arrow" src={arrow} alt="Arrow icon" onclick="location.href='./#contact'" />
+      <img className="icon arrow" src={theme=="light"?arrowDark:arrowLight} alt="Arrow icon" />
     </section>
   )
 }
