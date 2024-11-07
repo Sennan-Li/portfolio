@@ -22,6 +22,7 @@ const About = ({theme}) => {
                   <p>Technical Support</p>
                   <p>Product Management</p>
                   <p>Web Development</p>
+                  <p>Data Analysis</p>
                 </div>
                 <div className="grid-item-container">
                   <img src={theme=="light"?educationDark:educationLight} alt="Education icon" className="icon" />
