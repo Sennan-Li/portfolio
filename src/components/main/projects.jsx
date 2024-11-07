@@ -3,6 +3,7 @@ import arrowDark from '../../assets/arrow_dark.png';
 import project1 from '../../assets/project-1.jpeg';
 import project2 from '../../assets/project-2.jpeg';
 import project3 from '../../assets/project-3.jpeg';
+import project4 from '../../assets/British Airways - Data Science Job Simulation Completion Certificate.png';
 
 const Projects = ({theme}) => {
   return (
@@ -45,6 +46,16 @@ const Projects = ({theme}) => {
             </div>
           </div>
 
+          <div className="grid-item-container grid-item-project-container">
+            <div className="grid-item-article-container">
+              <img className="project-img" src={project4} alt="Project 1" />
+            </div>
+            <h2 className="projects-sub-title project-title">Data Science</h2>
+            <div className="btn-container">
+              <a href="https://github.com/Sennan-Li/BA-Programme.git" target='_blank'><button className="btn btn-color-2 project-btn">Github</button></a>
+              <a href="https://github.com/Sennan-Li/BA-Programme.git" target='_blank'><button className="btn btn-color-2 project-btn">Demo</button></a>
+            </div>
+          </div>
 
         </div>
       </div>
