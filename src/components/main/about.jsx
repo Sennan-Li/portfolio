@@ -18,20 +18,20 @@ const About = ({theme}) => {
               <div className="grid-container">
                 <div className="grid-item-container">
                   <img src={theme=="light"?experienceDark:experienceLight} alt="Experience icon" className="icon"/>
-                  <h3>Experience</h3>
-                  <p>Technical Support</p>
-                  <p>Product Management</p>
-                  <p>Web Development</p>
-                  <p>Data Analysis</p>
+                  <h3>Credentials</h3>
+                  <p><a target='_blank' href='https://sennanliimages.blob.core.windows.net/certifications/Microsoft Certified Excel Expert.pdf'>Microsoft Certified <strong>Excel</strong> Expert</a></p>
+                  <p><a target='_blank' href='https://sennanliimages.blob.core.windows.net/certifications/Tableau Certified Desktop Specialist.pdf'><strong>Tableau</strong> Certified Desktop Specialist</a></p>
+                  <p><a target='_blank' href='https://learn.microsoft.com/en-us/users/sennanli/credentials/944589ba9143442f'>Microsoft Certified <strong>Power BI</strong> Data Analysis Associate</a></p>
+                  <p><a target='_blank' href='https://sennanliimages.blob.core.windows.net/certifications/Cisco Certified Support Technician Networking.pdf'>Cisco Certified Support Technician Networking (CCST)</a></p>
                 </div>
                 <div className="grid-item-container">
                   <img src={theme=="light"?educationDark:educationLight} alt="Education icon" className="icon" />
                   <h3>Education</h3>
-                  <p>MSc Computer Science <br /> MSc Automotive Engineering</p>
+                  <p>MSc Computer Science <br />University of York <br /> <br />MSc Automotive Engineering <br /> Coventry University</p>
                 </div>
               </div>
               <div className="text-container">
-                <p>Experienced IT professional specializing in technical support, product management, and web development. Strong background in computer networking and cloud technologies. Proficient in HTML, CSS, JavaScript, and Python. Passionate about leveraging innovative solutions to solve real-world challenges and staying ahead of industry trends. Dedicated to enhancing user experiences and optimizing IT systems.</p>
+                <p>Hi, I'm Sennan. With a background in Computer Science and hands-on experience, I focus on data analysis and visualization using Excel, Power BI, Tableau, and PostgreSQL. I'm also experienced in Python for machine learning and enjoy building data-driven solutions. Check out my work below.</p>
               </div>
             </div>
           </div>

@@ -13,47 +13,40 @@ const Experience = ({theme}) => {
             <div className="grid-container" id="experience-grid">
 
               <div className="grid-item-container">
-                <h2 className="experience-sub-title">Frontend Development</h2>
+                <h2 className="experience-sub-title">Core Data Analysis Skills:</h2>
                 <div className="grid-item-article-container">
-                  <article>
+                <article>
                     <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
                     <div>
-                      <h3>HTML</h3>
+                      <h3>Data Cleaning</h3>
                       
                     </div>
                   </article>
                   <article>
                     <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
                     <div>
-                      <h3>CSS</h3>
+                      <h3>Data Analytics</h3>
                       
                     </div>
                   </article>
                   <article>
                     <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
                     <div>
-                      <h3>SASS</h3>
+                      <h3>Data Visualization</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
+                    <div>
+                      <h3>Predictive Modeling</h3>
                       
                     </div>
                   </article>
                   <article>
                     <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon"/>
                     <div>
-                      <h3>JavaScript</h3>
-                      
-                    </div>
-                  </article>
-                  <article>
-                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
-                    <div>
-                      <h3>TypeScript</h3>
-                      
-                    </div>
-                  </article>
-                  <article>
-                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
-                    <div>
-                      <h3>React</h3>
+                      <h3>Machine Learning</h3>
                       
                     </div>
                   </article>
@@ -61,8 +54,29 @@ const Experience = ({theme}) => {
               </div>
 
               <div className="grid-item-container">
-                <h2 className="experience-sub-title">Backend Development</h2>
+                <h2 className="experience-sub-title">Technical Tools & Platforms:</h2>
                 <div className="grid-item-article-container">
+                  <article>
+                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
+                    <div>
+                      <h3>Excel</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon"/>
+                    <div>
+                      <h3>Power BI</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
+                    <div>
+                      <h3>Tableau</h3>
+                      
+                    </div>
+                  </article>
                   <article>
                     <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
                     <div>
@@ -71,36 +85,15 @@ const Experience = ({theme}) => {
                     </div>
                   </article>
                   <article>
-                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon"/>
+                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
                     <div>
-                      <h3>Node JS</h3>
-                      
+                      <h3>Python</h3>
                     </div>
                   </article>
                   <article>
                     <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
                     <div>
-                      <h3>Express JS</h3>
-                      
-                    </div>
-                  </article>
-                  <article>
-                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
-                    <div>
-                      <h3>Git</h3>
-                      
-                    </div>
-                  </article>
-                  <article>
-                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
-                    <div>
-                      <h3>Networking</h3>
-                    </div>
-                  </article>
-                  <article>
-                    <img className="icon" src={theme=="light"?checkmarkDark:checkmarkLight} alt="Experience icon" />
-                    <div>
-                      <h3>Azure</h3>
+                      <h3>Git (Version Control)</h3>
                     </div>
                   </article>
                 </div>

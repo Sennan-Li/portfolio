@@ -15,7 +15,7 @@ const Profile = ({theme}) => {
             <div className="profile-text">
                 <p className="section-text-p1">Hello, I'm</p>
                 <h1 className="section-text-title">Sennan Li</h1>
-                <p className="section-text-p2">Junior Developer</p>
+                <p className="section-text-p2">IT & Data Analyst</p>
                 <div className="btn-container">
                     <a href="#about"><button className="btn btn-color-2" >About me</button></a>
                     <a href="#contact"><button className="btn btn-color-1" >Contact Info</button></a>
