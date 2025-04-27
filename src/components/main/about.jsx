@@ -31,7 +31,7 @@ const About = ({theme}) => {
                 </div>
               </div>
               <div className="text-container">
-                <p>Hi, I'm Sennan. With a background in Computer Science and hands-on experience, I focus on data analysis and visualization using Excel, Power BI, Tableau, and PostgreSQL. I'm also experienced in Python for machine learning and enjoy building data-driven solutions. Check out my work below.</p>
+                <p>Hi, I'm Sennan. With a background in Computer Science and hands-on experience, I focus on data analysis and visualisation using Excel, Power BI, Tableau, and PostgreSQL. I'm also experienced in Python for machine learning and enjoy building data-driven solutions. Check out my work below.</p>
               </div>
             </div>
           </div>
