@@ -8,6 +8,7 @@ const project2 = 'https://sennanliimages.blob.core.windows.net/viz/Predict_Custo
 const project3 = 'https://sennanliimages.blob.core.windows.net/viz/Predict_Customer_Bookings_in_Python.png';
 const project4 = 'https://sennanliimages.blob.core.windows.net/viz/TMDB_Movies_Project-Exploratory_Data_Analysis.png';
 const project5 = 'https://sennanliimages.blob.core.windows.net/viz/Analyse_Customer_Churn_in_Excel.png';
+const project6 = 'https://sennanliimages.blob.core.windows.net/viz/Analyse_Customer_Churn_in_Tableau.png';
 
 const Projects = ({theme}) => {
   return (
@@ -31,7 +32,7 @@ const Projects = ({theme}) => {
 
           <div className="grid-item-container grid-item-project-container">
             <div className="grid-item-article-container">
-              <img className="project-img" src={project2} alt="Project 1" />
+              <img className="project-img" src={project2} alt="Project 2" />
             </div>
             <h2 className="projects-sub-title project-title">Predict Customer Churn in Python</h2>
             <div className="btn-container">
@@ -44,7 +45,7 @@ const Projects = ({theme}) => {
 
           <div className="grid-item-container grid-item-project-container">
             <div className="grid-item-article-container">
-              <img className="project-img" src={project3} alt="Project 1" />
+              <img className="project-img" src={project3} alt="Project 3" />
             </div>
             <h2 className="projects-sub-title project-title">Predict Customer Bookings in Python</h2>
             <div className="btn-container">
@@ -55,7 +56,7 @@ const Projects = ({theme}) => {
 
           <div className="grid-item-container grid-item-project-container">
             <div className="grid-item-article-container">
-              <img className="project-img" src={project4} alt="Project 1" />
+              <img className="project-img" src={project4} alt="Project 4" />
             </div>
             <h2 className="projects-sub-title project-title">TMDB Movies Project - EDA in Python</h2>
             <div className="btn-container">
@@ -66,12 +67,23 @@ const Projects = ({theme}) => {
 
           <div className="grid-item-container grid-item-project-container">
             <div className="grid-item-article-container">
-              <img className="project-img" src={project5} alt="Project 1" />
+              <img className="project-img" src={project5} alt="Project 5" />
             </div>
             <h2 className="projects-sub-title project-title">Analyse Customer Churn in Excel</h2>
             <div className="btn-container">
               <a href="https://github.com/Sennan-Li/Excel-Analyse_Customer_Churn" target='_blank'><button className="btn btn-color-2 project-btn">Github</button></a>
               <a href="https://github.com/Sennan-Li/Excel-Analyse_Customer_Churn" target='_blank'><button className="btn btn-color-2 project-btn">Demo</button></a>
+            </div>
+          </div>
+
+          <div className="grid-item-container grid-item-project-container">
+            <div className="grid-item-article-container">
+              <img className="project-img" src={project6} alt="Project 6" />
+            </div>
+            <h2 className="projects-sub-title project-title">Analyse Customer Churn in Tableau</h2>
+            <div className="btn-container">
+              <a href="https://public.tableau.com/app/profile/sennan.li/viz/AnalyseCustomerChurninTableau/ChurnAnalysis" target='_blank'><button className="btn btn-color-2 project-btn">Tableau Public</button></a>
+              <a href="https://public.tableau.com/app/profile/sennan.li/viz/AnalyseCustomerChurninTableau/ChurnAnalysis" target='_blank'><button className="btn btn-color-2 project-btn">Demo</button></a>
             </div>
           </div>
 
